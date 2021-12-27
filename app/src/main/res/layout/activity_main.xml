@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GoToLinearLayout"
+        android:text="Go To LinearLayout" />
+
+    <Button
+        android:id="@+id/btnRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GoToRelativeLayout"
+        android:text="Go To RelativeLayout" />
+
+    <Button
+        android:id="@+id/btnframeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GoToFrameLayout"
+        android:text="Go To FrameLayout" />
+
+    <Button
+        android:id="@+id/btnListViewBasic1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GoToListViewBasic1Layout"
+        android:text="Go To ListViewBasic1" />
+
+    <Button
+        android:id="@+id/btnListViewBasic2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GoToListViewBasic2Layout"
+        android:text="Go To ListViewBasic2" />
+
+    <Button
+        android:id="@+id/btnListViewAdvance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GoToListViewAdvanceLayout"
+        android:text="Go To Student List" />
+
+</LinearLayout>
